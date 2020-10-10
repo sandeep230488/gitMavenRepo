@@ -1,0 +1,4 @@
+TestData=D:\\TestData.xls
+GeckoDriverPath=D:\\geckodriver.exe
+REPORTPATH=D:\\comet
+TestCaseDetails=D:\\TestCaseDetails.xls

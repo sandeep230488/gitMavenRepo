@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ login Start ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+    </line>
+    <line>
+      <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ login End ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+    </line>
+    <line>
+      <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ createGroup Start ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+    </line>
+    <line>
+      <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ createGroup End ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+    </line>
+    <line>
+      <![CDATA[~Step~11:27:33 FriendsPage - createGroup~Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43063" started-at="2020-10-07T11:26:58 IST" finished-at="2020-10-07T11:27:41 IST">
+    <groups>
+    </groups>
+    <test name="searchFriend" duration-ms="43063" started-at="2020-10-07T11:26:58 IST" finished-at="2020-10-07T11:27:41 IST">
+      <class name="com.facebook.TestCases.searchFriend">
+        <test-method status="PASS" signature="initSetup()[pri:0, instance:com.facebook.TestCases.searchFriend@76f2b07d]" name="initSetup" is-config="true" duration-ms="931" started-at="2020-10-07T11:26:57 IST" finished-at="2020-10-07T11:26:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.facebook.TestCases.searchFriend@76f2b07d]" name="setup" is-config="true" duration-ms="26919" started-at="2020-10-07T11:26:58 IST" finished-at="2020-10-07T11:27:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[INT05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[searchFriend]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ login Start ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+            </line>
+            <line>
+              <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ login End ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:com.facebook.TestCases.searchFriend@76f2b07d]" name="TC1" duration-ms="7848" started-at="2020-10-07T11:27:25 IST" finished-at="2020-10-07T11:27:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ createGroup Start ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+            </line>
+            <line>
+              <![CDATA[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ createGroup End ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]>
+            </line>
+            <line>
+              <![CDATA[~Step~11:27:33 FriendsPage - createGroup~Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- com.facebook.TestCases.searchFriend -->
+    </test> <!-- searchFriend -->
+  </suite> <!-- Suite -->
+</testng-results>
