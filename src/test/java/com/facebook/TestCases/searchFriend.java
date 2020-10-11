@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import com.facebook.pages.FriendsPage;
 
-import junit.framework.Assert;
+
 
 public class searchFriend extends BaseTest {
 	
@@ -15,7 +15,7 @@ public class searchFriend extends BaseTest {
 	{
 		System.out.println("in tet case");
 		FriendsPage friendsPage=new FriendsPage(driver, details);
-		friendsPage.createGroup(stData("Name"));
-	
+		friendsPage.createGroup(stData("Name"));		
+		System.out.println("end tet case");
 	}
 }
