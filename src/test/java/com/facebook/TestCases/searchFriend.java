@@ -18,9 +18,8 @@ public class searchFriend extends BaseTest {
 		friendsPage.createGroup(stData("Name"));		
 		System.out.println("end tet case");
 		System.out.println("end tet case2");
-		System.out.println("end tet case3");
-		System.out.println("end tet case4");
 		System.out.println("end tet case5");
+
 		
 	}
 }
