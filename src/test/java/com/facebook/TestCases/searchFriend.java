@@ -17,5 +17,6 @@ public class searchFriend extends BaseTest {
 		FriendsPage friendsPage=new FriendsPage(driver, details);
 		friendsPage.createGroup(stData("Name"));		
 		System.out.println("end tet case");
+		System.out.println("end tet case2");
 	}
 }
