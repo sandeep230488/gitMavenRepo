@@ -19,5 +19,6 @@ public class searchFriend extends BaseTest {
 		System.out.println("end tet case");
 		System.out.println("end tet case2");
 		System.out.println("end tet case3");
+		System.out.println("end tet case4");
 	}
 }
