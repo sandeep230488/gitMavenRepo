@@ -13,17 +13,17 @@ import org.testng.Assert;
 
 public class FriendsPage extends BasePage {
 	
-	@FindBy(xpath = "//a[text()='Create']")
+	@FindBy(xpath = "//div[@aria-label='Create']")
 	private WebElement CreateLink;
 	
-	@FindBy(xpath = "//div[text()='Group ']")
+	@FindBy(xpath = "//a[@href='/groups/?category=create']")
 	private WebElement GroupLink;
 	
-	@FindBy(xpath = "//input[@name='name']")
-	private WebElement NameInput;
+	@FindBy(xpath = "(//input[contains(@id,'jsc_c')])[1]")
+	private WebElement NameInputTd;
 	
-	@FindBy(xpath = "//button[text()='Create']")
-	private WebElement Createbtn;
+	@FindBy(xpath = "(//span[text()='Group name'])[1]")
+	private WebElement NameInput;
 	
 	
 	public FriendsPage(WebDriver driver, TestCaseDetails details) {
@@ -40,10 +40,11 @@ public class FriendsPage extends BasePage {
 		waitForElementClickable(CreateLink);
 		click(CreateLink,1);
 		click(GroupLink,1);
-		click(NameInput,0.5);
-		type(NameInput, name);
-		click(Createbtn,0);
-		
+		waitForElementClickable(NameInput);
+		jsClick(NameInput);
+		jsType(NameInputTd, name);
+		//click(Createbtn,0);
+				
 		Assert.assertEquals(dbSelect("select * from EMP").get("FIRSTNAME").get(1), "Sandeep1", "test failed");
 		
 		Reporter.log(

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true" thread-count="6"
+	preserve-order="true">
+	<listeners>
+		<listener class-name="com.facebook.ListenerGeneric.STListner"></listener>
+		</listeners>
+  <test thread-count="5" name="searchFriend">
+  		<parameter name="envName" value="INT05"></parameter>
+		<parameter name="testCaseNumber" value="1"></parameter>
+		<parameter name="testDataRow" value="searchFriend2"></parameter>
+	<classes>
+        <class name="com.facebook.TestCases.searchFriend"/>
+     </classes>
+  </test> 
+  <!--<test thread-count="5" name="searchFriend">
+  		<parameter name="envName" value="INT05"></parameter>
+		<parameter name="testCaseNumber" value="1"></parameter>
+		<parameter name="testDataRow" value="searchFriend"></parameter>
+	<classes>
+        <class name="com.facebook.TestCases.searchFriend2"/>
+     </classes>
+  </test>--><!-- Test -->
+</suite> <!-- Suite -->

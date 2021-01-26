@@ -256,8 +256,13 @@ public class BasePage {
 	public void type(WebElement we, String value) { // sendKeys
 		we.clear();
 		we.sendKeys(value);
+		
 	}
 
+	public void type1(WebElement we, String value) { // sendKeys
+			we.sendKeys(value);
+		
+	}
 	public void readValue(WebElement we, String name, int time) { // get
 																	// attribute
 		waitMethod(time);

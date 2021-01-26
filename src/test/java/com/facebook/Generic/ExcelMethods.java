@@ -51,7 +51,7 @@ public class ExcelMethods {
 				sub.add(excelReader.ReadCell(columncount, rowcount + 1));
 			}
 			testdata.put(excelReader.ReadCell(columncount, 1), sub);
-		}
+			}
 		testData.setData(testdata);
 	}
 

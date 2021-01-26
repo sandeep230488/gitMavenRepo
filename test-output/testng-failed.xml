@@ -5,7 +5,7 @@
     <listener class-name="com.facebook.ListenerGeneric.STListner"/>
   </listeners>
   <test thread-count="6" name="searchFriend(failed)" parallel="methods">
-    <parameter name="testDataRow" value="searchFriend"/>
+    <parameter name="testDataRow" value="searchFriend2"/>
     <parameter name="envName" value="INT05"/>
     <parameter name="testCaseNumber" value="1"/>
     <classes>
